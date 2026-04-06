@@ -1,0 +1,13 @@
+public class Puppy extends Dog {
+
+    void weep() {
+        System.out.println("puppy weeps");
+    }
+
+    public static void main(String[] args) {
+        Puppy obj = new Puppy();
+        obj.bark();
+        obj.eat();
+        obj.weep();
+    }
+}
